@@ -1,0 +1,71 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+        max-width: 80%;
+        padding: 34px;
+        margin: auto;
+        
+}
+
+.container h3{
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 40px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+input, textarea {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Oswald', sans-serif;
+    border: 2p solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 8px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.btn {
+    color: white;
+    background: rgb(25, 25, 231);
+    padding: 4px 12px;
+    font-size: 23px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.image { 
+    opacity: 0.8;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.fillingMsg {
+    color: green;
+    font-size: 20px;
+    font-weight: 600;
+}
